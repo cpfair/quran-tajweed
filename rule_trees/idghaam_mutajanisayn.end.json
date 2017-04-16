@@ -1,0 +1,10 @@
+{
+  "attribute": "0_in_rule",
+  "gt": {
+    "label": 1
+  },
+  "lt": {
+    "label": 0
+  },
+  "value": 0.5
+}

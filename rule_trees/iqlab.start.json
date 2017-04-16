@@ -1,0 +1,38 @@
+{
+  "attribute": "0_has_small_meem",
+  "gt": {
+    "attribute": "0_is_base_mod",
+    "gt": {
+      "label": 0
+    },
+    "lt": {
+      "attribute": "0_has_tanween",
+      "gt": {
+        "attribute": "0_is_tanween",
+        "gt": {
+          "attribute": "2_exists",
+          "gt": {
+            "label": 1
+          },
+          "lt": {
+            "label": 0
+          },
+          "value": 0.5
+        },
+        "lt": {
+          "label": 0
+        },
+        "value": 0.5
+      },
+      "lt": {
+        "label": 1
+      },
+      "value": 0.5
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "label": 0
+  },
+  "value": 0.5
+}

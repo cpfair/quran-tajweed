@@ -1,0 +1,31 @@
+{
+  "attribute": "1_has_shaddah",
+  "gt": {
+    "attribute": "0_is_lam",
+    "gt": {
+      "attribute": "0_is_allah_word_start",
+      "gt": {
+        "label": 0
+      },
+      "lt": {
+        "attribute": "0_has_vowel_incl_tanween",
+        "gt": {
+          "label": 0
+        },
+        "lt": {
+          "label": 1
+        },
+        "value": 0.5
+      },
+      "value": 0.5
+    },
+    "lt": {
+      "label": 0
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "label": 0
+  },
+  "value": 0.5
+}

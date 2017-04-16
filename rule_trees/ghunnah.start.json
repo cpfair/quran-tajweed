@@ -1,0 +1,59 @@
+{
+  "attribute": "0_is_noon_or_meem",
+  "gt": {
+    "attribute": "0_has_shaddah",
+    "gt": {
+      "attribute": "0_is_initial",
+      "gt": {
+        "attribute": "1_base_is_heavy",
+        "gt": {
+          "attribute": "-2_base_is_noon_or_meem",
+          "gt": {
+            "label": 0
+          },
+          "lt": {
+            "attribute": "-2_has_tanween",
+            "gt": {
+              "label": 0
+            },
+            "lt": {
+              "attribute": "-3_has_tanween",
+              "gt": {
+                "label": 0
+              },
+              "lt": {
+                "attribute": "-1_exists",
+                "gt": {
+                  "label": 1
+                },
+                "lt": {
+                  "label": 0
+                },
+                "value": 0.5
+              },
+              "value": 0.5
+            },
+            "value": 0.5
+          },
+          "value": 0.5
+        },
+        "lt": {
+          "label": 0
+        },
+        "value": 0.5
+      },
+      "lt": {
+        "label": 1
+      },
+      "value": 0.5
+    },
+    "lt": {
+      "label": 0
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "label": 0
+  },
+  "value": 0.5
+}

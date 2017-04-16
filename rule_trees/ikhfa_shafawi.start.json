@@ -1,0 +1,38 @@
+{
+  "attribute": "0_base_is_meem",
+  "gt": {
+    "attribute": "0_has_implicit_sukoon",
+    "gt": {
+      "attribute": "2_base_is_meem",
+      "gt": {
+        "label": 0
+      },
+      "lt": {
+        "attribute": "2_exists",
+        "gt": {
+          "attribute": "2_has_implicit_sukoon",
+          "gt": {
+            "label": 0
+          },
+          "lt": {
+            "label": 1
+          },
+          "value": 0.5
+        },
+        "lt": {
+          "label": 0
+        },
+        "value": 0.5
+      },
+      "value": 0.5
+    },
+    "lt": {
+      "label": 0
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "label": 0
+  },
+  "value": 0.5
+}

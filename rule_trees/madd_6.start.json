@@ -1,0 +1,94 @@
+{
+  "attribute": "0_has_maddah",
+  "gt": {
+    "attribute": "1_has_shaddah",
+    "gt": {
+      "attribute": "0_is_base_mod",
+      "gt": {
+        "label": 1
+      },
+      "lt": {
+        "label": 0
+      },
+      "value": 0.5
+    },
+    "lt": {
+      "attribute": "-1_has_vowel_incl_tanween",
+      "gt": {
+        "attribute": "0_is_base_mod",
+        "gt": {
+          "attribute": "0_is_final",
+          "gt": {
+            "label": 0
+          },
+          "lt": {
+            "attribute": "1_has_vowel_incl_tanween",
+            "gt": {
+              "attribute": "1_has_explicit_sukoon",
+              "gt": {
+                "label": 1
+              },
+              "lt": {
+                "label": 0
+              },
+              "value": 0.5
+            },
+            "lt": {
+              "attribute": "1_has_explicit_sukoon",
+              "gt": {
+                "label": 0
+              },
+              "lt": {
+                "label": 1
+              },
+              "value": 0.5
+            },
+            "value": 0.5
+          },
+          "value": 0.5
+        },
+        "lt": {
+          "label": 0
+        },
+        "value": 0.5
+      },
+      "lt": {
+        "attribute": "-1_base_is_alif_maksura",
+        "gt": {
+          "label": 0
+        },
+        "lt": {
+          "attribute": "0_is_base_mod",
+          "gt": {
+            "attribute": "-1_has_explicit_sukoon",
+            "gt": {
+              "label": 0
+            },
+            "lt": {
+              "attribute": "1_has_explicit_sukoon",
+              "gt": {
+                "label": 0
+              },
+              "lt": {
+                "label": 1
+              },
+              "value": 0.5
+            },
+            "value": 0.5
+          },
+          "lt": {
+            "label": 0
+          },
+          "value": 0.5
+        },
+        "value": 0.5
+      },
+      "value": 0.5
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "label": 0
+  },
+  "value": 0.5
+}

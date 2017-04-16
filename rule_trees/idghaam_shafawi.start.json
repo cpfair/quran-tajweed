@@ -1,0 +1,24 @@
+{
+  "attribute": "2_base_is_meem",
+  "gt": {
+    "attribute": "0_base_is_meem",
+    "gt": {
+      "attribute": "0_has_implicit_sukoon",
+      "gt": {
+        "label": 1
+      },
+      "lt": {
+        "label": 0
+      },
+      "value": 0.5
+    },
+    "lt": {
+      "label": 0
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "label": 0
+  },
+  "value": 0.5
+}

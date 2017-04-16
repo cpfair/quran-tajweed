@@ -1,0 +1,66 @@
+{
+  "attribute": "0_has_silent_circle",
+  "gt": {
+    "attribute": "0_is_alif",
+    "gt": {
+      "label": 1
+    },
+    "lt": {
+      "attribute": "0_is_waw",
+      "gt": {
+        "label": 1
+      },
+      "lt": {
+        "attribute": "0_is_yeh",
+        "gt": {
+          "label": 1
+        },
+        "lt": {
+          "attribute": "0_is_alif_maksura",
+          "gt": {
+            "label": 1
+          },
+          "lt": {
+            "label": 0
+          },
+          "value": 0.5
+        },
+        "value": 0.5
+      },
+      "value": 0.5
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "attribute": "1_base_is_dagger_alif",
+    "gt": {
+      "attribute": "0_is_waw",
+      "gt": {
+        "attribute": "0_has_vowel_incl_tanween",
+        "gt": {
+          "label": 0
+        },
+        "lt": {
+          "label": 1
+        },
+        "value": 0.5
+      },
+      "lt": {
+        "label": 0
+      },
+      "value": 0.5
+    },
+    "lt": {
+      "attribute": "0_precedes_high_seen",
+      "gt": {
+        "label": 1
+      },
+      "lt": {
+        "label": 0
+      },
+      "value": 0.5
+    },
+    "value": 0.5
+  },
+  "value": 0.5
+}

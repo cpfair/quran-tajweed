@@ -1,0 +1,24 @@
+{
+  "attribute": "0_in_rule",
+  "gt": {
+    "attribute": "0_is_final_codepoint_in_letter",
+    "gt": {
+      "label": 1
+    },
+    "lt": {
+      "attribute": "0_has_explicit_sukoon",
+      "gt": {
+        "label": 0
+      },
+      "lt": {
+        "label": 1
+      },
+      "value": 0.5
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "label": 0
+  },
+  "value": 0.5
+}

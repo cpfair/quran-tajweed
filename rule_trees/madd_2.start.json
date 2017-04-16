@@ -1,0 +1,101 @@
+{
+  "attribute": "0_is_dagger_alif",
+  "gt": {
+    "attribute": "0_is_final",
+    "gt": {
+      "label": 0
+    },
+    "lt": {
+      "attribute": "0_has_maddah",
+      "gt": {
+        "label": 0
+      },
+      "lt": {
+        "attribute": "1_is_final_letter_in_ayah",
+        "gt": {
+          "label": 0
+        },
+        "lt": {
+          "attribute": "0_has_vowel_incl_tanween",
+          "gt": {
+            "label": 0
+          },
+          "lt": {
+            "label": 1
+          },
+          "value": 0.5
+        },
+        "value": 0.5
+      },
+      "value": 0.5
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "attribute": "0_is_small_waw",
+    "gt": {
+      "attribute": "0_has_maddah",
+      "gt": {
+        "attribute": "1_has_vowel_incl_tanween",
+        "gt": {
+          "label": 1
+        },
+        "lt": {
+          "label": 0
+        },
+        "value": 0.5
+      },
+      "lt": {
+        "attribute": "1_exists",
+        "gt": {
+          "attribute": "1_is_final_letter_in_ayah",
+          "gt": {
+            "label": 0
+          },
+          "lt": {
+            "label": 1
+          },
+          "value": 0.5
+        },
+        "lt": {
+          "label": 0
+        },
+        "value": 0.5
+      },
+      "value": 0.5
+    },
+    "lt": {
+      "attribute": "0_is_small_yeh",
+      "gt": {
+        "attribute": "0_has_maddah",
+        "gt": {
+          "label": 0
+        },
+        "lt": {
+          "attribute": "0_has_vowel_incl_tanween",
+          "gt": {
+            "label": 0
+          },
+          "lt": {
+            "attribute": "1_exists",
+            "gt": {
+              "label": 1
+            },
+            "lt": {
+              "label": 0
+            },
+            "value": 0.5
+          },
+          "value": 0.5
+        },
+        "value": 0.5
+      },
+      "lt": {
+        "label": 0
+      },
+      "value": 0.5
+    },
+    "value": 0.5
+  },
+  "value": 0.5
+}

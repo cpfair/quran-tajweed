@@ -1,0 +1,31 @@
+{
+  "attribute": "0_is_muqalqalah",
+  "gt": {
+    "attribute": "0_has_explicit_sukoon",
+    "gt": {
+      "label": 1
+    },
+    "lt": {
+      "attribute": "1_exists",
+      "gt": {
+        "label": 0
+      },
+      "lt": {
+        "attribute": "-1_has_maddah",
+        "gt": {
+          "label": 0
+        },
+        "lt": {
+          "label": 1
+        },
+        "value": 0.5
+      },
+      "value": 0.5
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "label": 0
+  },
+  "value": 0.5
+}

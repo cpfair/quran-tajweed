@@ -1,0 +1,17 @@
+{
+  "attribute": "0_is_alif_waslah",
+  "gt": {
+    "attribute": "-1_exists",
+    "gt": {
+      "label": 1
+    },
+    "lt": {
+      "label": 0
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "label": 0
+  },
+  "value": 0.5
+}

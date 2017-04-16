@@ -1,0 +1,73 @@
+{
+  "attribute": "0_has_maddah",
+  "gt": {
+    "attribute": "0_is_base_mod",
+    "gt": {
+      "attribute": "0_is_final",
+      "gt": {
+        "label": 0
+      },
+      "lt": {
+        "attribute": "1_has_explicit_sukoon",
+        "gt": {
+          "label": 0
+        },
+        "lt": {
+          "attribute": "1_has_initial_hamza",
+          "gt": {
+            "label": 0
+          },
+          "lt": {
+            "attribute": "1_base_is_isolated_hamza",
+            "gt": {
+              "label": 1
+            },
+            "lt": {
+              "attribute": "1_has_non_initial_hamza",
+              "gt": {
+                "attribute": "3_has_explicit_sukoon",
+                "gt": {
+                  "attribute": "0_is_alif",
+                  "gt": {
+                    "label": 1
+                  },
+                  "lt": {
+                    "attribute": "0_is_dagger_alif",
+                    "gt": {
+                      "label": 1
+                    },
+                    "lt": {
+                      "label": 0
+                    },
+                    "value": 0.5
+                  },
+                  "value": 0.5
+                },
+                "lt": {
+                  "label": 1
+                },
+                "value": 0.5
+              },
+              "lt": {
+                "label": 0
+              },
+              "value": 0.5
+            },
+            "value": 0.5
+          },
+          "value": 0.5
+        },
+        "value": 0.5
+      },
+      "value": 0.5
+    },
+    "lt": {
+      "label": 0
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "label": 0
+  },
+  "value": 0.5
+}

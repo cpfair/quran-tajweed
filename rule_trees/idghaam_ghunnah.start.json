@@ -1,0 +1,66 @@
+{
+  "attribute": "0_is_tanween",
+  "gt": {
+    "attribute": "2_base_is_idghaam_ghunna_set",
+    "gt": {
+      "label": 1
+    },
+    "lt": {
+      "attribute": "3_base_is_idghaam_ghunna_set",
+      "gt": {
+        "attribute": "0_is_final",
+        "gt": {
+          "label": 0
+        },
+        "lt": {
+          "label": 1
+        },
+        "value": 0.5
+      },
+      "lt": {
+        "label": 0
+      },
+      "value": 0.5
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "attribute": "0_is_noon",
+    "gt": {
+      "attribute": "2_base_is_idghaam_ghunna_set",
+      "gt": {
+        "attribute": "0_has_implicit_sukoon",
+        "gt": {
+          "attribute": "0_is_final",
+          "gt": {
+            "attribute": "-1_exists",
+            "gt": {
+              "label": 1
+            },
+            "lt": {
+              "label": 0
+            },
+            "value": 0.5
+          },
+          "lt": {
+            "label": 0
+          },
+          "value": 0.5
+        },
+        "lt": {
+          "label": 0
+        },
+        "value": 0.5
+      },
+      "lt": {
+        "label": 0
+      },
+      "value": 0.5
+    },
+    "lt": {
+      "label": 0
+    },
+    "value": 0.5
+  },
+  "value": 0.5
+}

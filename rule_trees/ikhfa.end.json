@@ -1,0 +1,38 @@
+{
+  "attribute": "0_in_rule",
+  "gt": {
+    "attribute": "0_is_base_mod",
+    "gt": {
+      "label": 0
+    },
+    "lt": {
+      "attribute": "-1_in_rule",
+      "gt": {
+        "attribute": "-1_has_no_diacritics",
+        "gt": {
+          "label": 1
+        },
+        "lt": {
+          "label": 0
+        },
+        "value": 0.5
+      },
+      "lt": {
+        "attribute": "-1_has_high_noon",
+        "gt": {
+          "label": 1
+        },
+        "lt": {
+          "label": 0
+        },
+        "value": 0.5
+      },
+      "value": 0.5
+    },
+    "value": 0.5
+  },
+  "lt": {
+    "label": 0
+  },
+  "value": 0.5
+}
