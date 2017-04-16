@@ -11,7 +11,7 @@
         "label": 0
       },
       "lt": {
-        "attribute": "0_is_base_mod",
+        "attribute": "0_is_base",
         "gt": {
           "label": 1
         },

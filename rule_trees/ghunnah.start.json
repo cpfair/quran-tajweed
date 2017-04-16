@@ -22,7 +22,7 @@
                 "label": 0
               },
               "lt": {
-                "attribute": "-1_exists",
+                "attribute": "-3_exists",
                 "gt": {
                   "label": 1
                 },

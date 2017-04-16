@@ -8,7 +8,7 @@
     "lt": {
       "attribute": "0_is_final_letter_in_ayah",
       "gt": {
-        "attribute": "0_is_base_mod",
+        "attribute": "0_is_base",
         "gt": {
           "label": 0
         },

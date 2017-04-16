@@ -1,7 +1,7 @@
 {
   "attribute": "0_has_maddah",
   "gt": {
-    "attribute": "0_is_base_mod",
+    "attribute": "0_is_base",
     "gt": {
       "attribute": "1_base_is_isolated_hamza",
       "gt": {

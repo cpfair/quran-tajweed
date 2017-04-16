@@ -1,7 +1,7 @@
 {
   "attribute": "0_has_small_meem",
   "gt": {
-    "attribute": "0_is_base_mod",
+    "attribute": "0_is_base",
     "gt": {
       "label": 0
     },

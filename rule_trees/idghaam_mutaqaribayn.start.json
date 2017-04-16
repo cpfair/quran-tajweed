@@ -45,7 +45,7 @@
       "gt": {
         "attribute": "0_has_implicit_sukoon",
         "gt": {
-          "attribute": "-1_base_is_lam",
+          "attribute": "2_has_implicit_sukoon",
           "gt": {
             "label": 1
           },

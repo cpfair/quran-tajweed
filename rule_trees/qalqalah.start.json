@@ -11,7 +11,7 @@
         "label": 0
       },
       "lt": {
-        "attribute": "-1_has_maddah",
+        "attribute": "0_has_maddah",
         "gt": {
           "label": 0
         },

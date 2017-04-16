@@ -3,7 +3,7 @@
   "gt": {
     "attribute": "1_has_shaddah",
     "gt": {
-      "attribute": "0_is_base_mod",
+      "attribute": "0_is_base",
       "gt": {
         "label": 1
       },
@@ -15,7 +15,7 @@
     "lt": {
       "attribute": "-1_has_vowel_incl_tanween",
       "gt": {
-        "attribute": "0_is_base_mod",
+        "attribute": "0_is_base",
         "gt": {
           "attribute": "0_is_final",
           "gt": {
@@ -58,7 +58,7 @@
           "label": 0
         },
         "lt": {
-          "attribute": "0_is_base_mod",
+          "attribute": "0_is_base",
           "gt": {
             "attribute": "-1_has_explicit_sukoon",
             "gt": {

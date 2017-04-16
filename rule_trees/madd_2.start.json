@@ -16,7 +16,7 @@
           "label": 0
         },
         "lt": {
-          "attribute": "0_has_vowel_incl_tanween",
+          "attribute": "0_has_hamza",
           "gt": {
             "label": 0
           },
@@ -72,11 +72,8 @@
           "label": 0
         },
         "lt": {
-          "attribute": "0_has_vowel_incl_tanween",
+          "attribute": "0_has_proc_sukoon",
           "gt": {
-            "label": 0
-          },
-          "lt": {
             "attribute": "1_exists",
             "gt": {
               "label": 1
@@ -85,6 +82,9 @@
               "label": 0
             },
             "value": 0.5
+          },
+          "lt": {
+            "label": 0
           },
           "value": 0.5
         },
