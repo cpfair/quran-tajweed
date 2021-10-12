@@ -1,6 +1,10 @@
+### NOTE: This project is not actively maintained
+Please consider using the [Quran.com API](https://quran.api-docs.io/v4/quran/get-uthmani-script-of-ayah) instead.
+
 # quran-tajweed
 
 <img src="http://i.imgur.com/vGYW7ZY.png" width="323"/>
+
 
 Tajweed annotations for the Qur'an (riwayat hafs). The data is available as a JSON file with exact character indices for each rule, and as individual decision trees for each rule.
 
@@ -52,9 +56,9 @@ All the data you probably need is in `output/tajweed.hafs.uthmani-pause-sajdah.j
         ...
     ]
 
-The `start` and `end` indices of each annotation refer to the Unicode codepoint (not byte!) offset within the [Tanzil.net](http://tanzil.net/download) Uthmani Qur'an text. Make sure to download the version with pause marks and sajdah signs, but without rub-el-hizb signs or me_quran tanween shapes. If you use different options or a different text entirely, you must rebuild the data file from scratch (at your own risk) - refer to the next section.
+The `start` and `end` indices of each annotation refer to the Unicode codepoint (not byte!) offset within the [Tanzil.net](http://tanzil.net/download) Uthmani Qur'an text. **NOTE:** that the encoding of the files available from Tanzil.net has changed slightly since the annotations were generated, so please use this copy of the Qur'an text file: [quran-uthmani.txt](https://github.com/cpfair/quran-tajweed/files/7281388/quran-uthmani.txt) (downloaded ca. Apr 6, 2017). If you use a different Qur'an text file, you must rebuild the data file from scratch (at your own risk) - refer to the next section.
 
-This data file is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+This data file is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), while the original Tanzil.net text file linked above is made available under the [Tanzil.net terms of use](https://tanzil.net/download/).
 
 ## Using the decision trees
 
